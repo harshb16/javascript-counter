@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="app.js" defer></script>
+    <title>Counter</title>
+  </head>
+  <body class="h-screen bg-gray-800">
+    <div class="flex items-center justify-center h-full">
+      <div
+        class="flex flex-col items-center justify-center w-full p-16 space-y-8 bg-white rounded-lg mx-96"
+      >
+        <div id="number" class="text-center text-gray-900 text-7xl sm:text-7xl">
+          0
+        </div>
+        <div
+          class="flex flex-col space-y-1 sm:space-y-0 sm:space-x-3 sm:flex-row"
+        >
+          <button
+            id="increase"
+            class="w-48 h-12 text-2xl text-white bg-gray-800 rounded-lg"
+          >
+            increase
+          </button>
+          <button
+            id="decrease"
+            class="w-48 h-12 text-2xl text-white bg-gray-800 rounded-lg"
+          >
+            decrease
+          </button>
+        </div>
+        <button
+          id="reset"
+          class="px-5 py-3 text-2xl text-white bg-gray-800 rounded-lg"
+        >
+          reset
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
